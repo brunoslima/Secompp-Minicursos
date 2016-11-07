@@ -1,0 +1,12 @@
+.descricao{
+	display: block;
+	background-color: rgba(148, 31, 25, 1);
+	padding: 40px 35px;
+}
+
+
+.barra-inferior{
+	background-color: rgba(67, 84, 92, 1);
+	height: 50px; width: calc(100% - 30px);
+	padding: 0 15px;
+}
