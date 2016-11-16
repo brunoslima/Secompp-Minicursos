@@ -1,0 +1,85 @@
+*{
+	margin: 0; padding: 0;
+}
+
+li{
+	list-style: none;
+}
+
+section{
+	display: block;
+	padding: 30px 5vw 50px;
+	font-family: OpenSans;
+}
+
+section h1{
+	display: block;
+	margin-left: 30px;
+	font-size: 35px;
+	margin-bottom: 20px;
+}
+
+section h2{
+	font-size: 20px;
+}
+
+section p{
+	text-indent: 40px;
+	font-size: 16px;
+	text-align: justify;
+	margin: 15px 0 10px;
+}
+
+table{
+	padding-top: 30px;
+}
+
+table th {
+
+	background-color: #000;
+	color: white;
+	text-align: center;
+	width: 230px;
+	height: 30px;
+}
+
+table td{
+	background-color: #eee;
+	color: rgb(111, 111, 111);
+	width: 140px;
+	height: 30px;
+	text-align: center;
+	font-size: 15px;
+}	
+
+form{
+	display: inline-block;
+	padding: 30px 35px 40px;
+}
+
+form label{
+	margin-left: 5px;
+}
+
+form input, form select, form textarea{
+	padding: 5px 8px;
+	margin: 3px 0 10px;
+	font-family: OpenSans;
+	font-size: 16px;
+}
+
+form button{
+	margin-top: 15px;
+	padding: 3px 6px;
+	font-family: OpenSans;
+	font-size: 16px;
+}
+
+p a{
+	color: #000;
+	text-decoration: none;
+}
+
+p a:hover{
+	text-decoration: underline;
+}

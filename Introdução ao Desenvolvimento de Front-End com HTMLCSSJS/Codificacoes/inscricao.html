@@ -4,43 +4,41 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Evento</title>
-	<link rel="stylesheet" href="../css/base/base.css">
-	<link rel="stylesheet" href="../css/base/fonts.css">
-	<link rel="stylesheet" href="../css/layout/header.css">
-	<link rel="stylesheet" href="../css/layout/footer.css">
-	<link rel="stylesheet" href="../css/modules/menu.css">
-	<link rel="stylesheet" href="../css/modules/modules.css">
+	<link rel="stylesheet" href="css/base/base.css">
+	<link rel="stylesheet" href="css/base/fonts.css">
+	<link rel="stylesheet" href="css/layout/header.css">
+	<link rel="stylesheet" href="css/layout/footer.css">
+	<link rel="stylesheet" href="css/modules/menu.css">
+	<link rel="stylesheet" href="css/modules/modules.css">
 </head>
 <body>
 	<header>
 		<div class="barra-superior">
 			<a href="https://www.facebook.com/secompp/"><div class="redes-sociais face"></div></a>
-			<div class="redes-sociais twitter"></div>
-			<div class="redes-sociais youtube"></div>
+			<a href="http://www.twitter.com"><div class="redes-sociais twitter"></div></a>
+			<a href="http://www.youtube.com.br"><div class="redes-sociais youtube"></div></a>
 		</div>
 		<div class="cabecalho-principal">
 			<h1>Evento</h1>
 		</div>
 	</header>
 	<ul class="menu-principal">
-		<li class="menu-item"><a href="../index.html">Home</a></li>
-		<li class="menu-item"><a href="../view/sobre.html">Sobre</a></li>
-		<li class="menu-item"><a href="../view/programacao.html">Programação</a></li>
-		<li class="menu-item"><a href="../view/inscricao.html">Inscrições</a></li>
+		<li class="menu-item"><a href="index.html">Home</a></li>
+		<li class="menu-item"><a href="sobre.html">Sobre</a></li>
+		<li class="menu-item"><a href="programacao.html">Programação</a></li>
+		<li class="menu-item"><a href="inscricao.html">Inscrições</a></li>
 		<li class="menu-item">Organização
 			<ul class="sub-menu">
-				<li class="menu-item">Coordenadores</li>
-				<li class="menu-item"><a href="../view/comissao.html">Comissão Organizadora</a></li>
+				<li class="menu-item"><a href="comissao.html">Comissão Organizadora</a></li>
 			</ul>
 		</li>
 		<li class="menu-item">Galeria
 			<ul class="sub-menu">
-				<li class="menu-item">Fotos</li>
-				<li class="menu-item">Videos</li>
-				<li class="menu-item"><a href="../view/artigo.html">Artigos</li>
+				<li class="menu-item"><a href="fotos.html">Fotos e Vídeos</a></li>
+				<li class="menu-item"><a href="artigo.html">Artigos</li>
 			</ul>
 		</li>
-		<li class="menu-item"><a href="../view/endereco.html">Endereço</a></li>
+		<li class="menu-item"><a href="endereco.html">Endereço</a></li>
 	</ul>
 	<section>
 		<div class="conteudo">
@@ -49,8 +47,14 @@
 					<label for="nome">Nome:</label><br>
 					<input type="text" name="Nome"><br>
 
-					<label for="nome">E-mail:</label><br>
+					<label for="e-mail">E-mail:</label><br>
 					<input type="text" name="e-mail"><br>
+
+					<label for="senha">Senha:</label><br>
+					<input type="password" name="senha"><br>
+
+					<label for="confirmacao">Confirmação de senha:</label><br>
+					<input type="password" name="confirmacao"><br>
 
 					<label for="nome">Formação:</label><br>
 					<select name="formacao">
@@ -60,8 +64,7 @@
 					</select><br>
 
 					<label for="nome">Comentário:</label><br>
-					<textarea name="mesagem" rows="10" cols="30">Informe suas expectativas.</textarea><br>
-
+					<textarea name="mensagem" rows="10" cols="50" placeholder="Informe suas expectativas."></textarea><br>
 					<button type="button" onclick="alert('Inscrição realizada! Obrigado')">Efetuar Inscrição</button>
 				</form>
 			</div>
@@ -78,7 +81,9 @@
 				<p><br>Telefone: (18) 3821-3639 <br>E-mail: admin@teste.com</p>
 			</div>
 		</div>
-		<div class="barra-inferior"></div>
+		<div class="barra-inferior">
+			<p>Universidade Estadual Paulista - Faculdade de Ciências e Tecnologia</p>
+		</div>
 	</footer>
 </body>
 </html>

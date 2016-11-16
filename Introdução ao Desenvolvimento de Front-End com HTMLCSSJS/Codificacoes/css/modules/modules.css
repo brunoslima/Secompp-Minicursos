@@ -25,7 +25,7 @@
 /****************************************************/
 
 .bloco-noticia{
-	display: inline-block;
+	display: block;
 }
 
 .noticia{
@@ -34,14 +34,14 @@
 	margin: 1vw;
 }
 
-.bloco-noticia > .tamanho-pequeno{
+.bloco-noticia .tamanho-pequeno{
 	width: 20vw; height: 400px;
 }
 
-.bloco-noticia > .tamanho-normal{
+.bloco-noticia .tamanho-normal{
 	width: 30vw; height: 400px;
 }
 
-.bloco-noticia > .tamanho-grande{
+.bloco-noticia .tamanho-grande{
 	width: 40vw; height: 400px;
 }

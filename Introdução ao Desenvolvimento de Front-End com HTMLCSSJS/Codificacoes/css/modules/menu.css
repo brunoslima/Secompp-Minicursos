@@ -40,7 +40,7 @@
 
 .sub-menu > .menu-item{
 	display: inline-block;
-	width: 100%;
+	width: 120%;
 }
 
 .sub-menu > .menu-item:hover{

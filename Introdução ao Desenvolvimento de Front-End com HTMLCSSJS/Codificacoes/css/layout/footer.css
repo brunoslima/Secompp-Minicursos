@@ -10,3 +10,13 @@
 	height: 50px; width: calc(100% - 30px);
 	padding: 0 15px;
 }
+
+.barra-inferior  p{
+	display: block;
+	text-align: left;
+	line-height: 50px;
+	vertical-align: middle;
+	color: #fff;
+	font-family: OpenSans;
+	font-size: 12px;
+}
