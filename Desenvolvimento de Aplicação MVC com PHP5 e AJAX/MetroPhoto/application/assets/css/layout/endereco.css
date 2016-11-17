@@ -1,0 +1,20 @@
+.maps {
+	width: 40vw;
+	display: inline-block;
+}
+
+.conteudo-endereco {
+	
+	width: 30vw;
+	display: inline-block;
+	margin-left: 65px;
+	vertical-align: top;
+}
+
+.conteudo-endereco p{
+	text-indent: 0;
+}
+
+
+
+
