@@ -6,6 +6,7 @@
 
 
 .barra-inferior{
+	position: relative;
 	background-color: rgba(67, 84, 92, 1);
 	height: 50px; width: calc(100% - 30px);
 	padding: 0 15px;
@@ -15,8 +16,15 @@
 	display: block;
 	text-align: left;
 	line-height: 50px;
-	vertical-align: middle;
+	width: 50%;
 	color: #fff;
 	font-family: OpenSans;
 	font-size: 12px;
+}
+
+.barra-inferior > .scroll{
+	cursor: pointer;
+	position: absolute;
+	right: 50px;
+	bottom: 60px;
 }
