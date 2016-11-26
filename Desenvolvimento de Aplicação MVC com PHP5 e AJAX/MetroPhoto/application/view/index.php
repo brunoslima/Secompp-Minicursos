@@ -17,9 +17,9 @@
 	<?php require_once "application/view/menu-principal.php"; ?>
 	<section>
 		<div class="bloco-noticia">
-			<a href="sobre.html"><div class="noticia noticia-a tamanho-pequeno"></div></a>
-			<a href="programacao.html"><div class="noticia noticia-b tamanho-pequeno"></div></a>
-			<a href="fotos.html"><div class="noticia noticia-c tamanho-grande"></div></a>
+			<div class="noticia"><a href="/MetroPhoto/sobre"><img title="Sobre o evento" src="<?php echo $assets['images']?>palestra.jpg" width="450" height="300"></a></div>
+			<div class="noticia"><a href="/MetroPhoto/programacao"><img title="Programação" src="<?php echo $assets['images']?>cronograma.png" width="450" height="300"></a></div>
+			<div class="noticia"><a href="/MetroPhoto/fotos"><img title="Fotos e Vídeos" src="<?php echo $assets['images']?>home.png" width="450" height="300"></a></div>
 		</div>
 	</section>
 	<?php require_once "application/view/footer.php"; ?>

@@ -61,3 +61,7 @@
 	$assets['images'] = $project['domain']."/application/assets/css/images/";
 	
 	$assets['fonts'] = $project['domain']."/application/assets/css/fonts/";
+
+
+
+	///////////////////////////////////////////

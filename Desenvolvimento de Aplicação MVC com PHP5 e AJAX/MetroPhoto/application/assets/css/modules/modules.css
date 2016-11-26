@@ -30,21 +30,10 @@
 
 .noticia{
 	display: inline-block;
-	border: 1px solid #ccc;
 	margin: 1vw;
 }
 
-.bloco-noticia .tamanho-pequeno{
-	width: 20vw; height: 400px;
-}
 
-.bloco-noticia .tamanho-normal{
-	width: 30vw; height: 400px;
-}
-
-.bloco-noticia .tamanho-grande{
-	width: 40vw; height: 400px;
-}
 
 /********************************************************/
 

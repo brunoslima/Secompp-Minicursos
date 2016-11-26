@@ -28,40 +28,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                    	<td class="horario">08:00</td>
-                        <td>Abertura oficial</td>
-                        <td>Minicurso 1</td>
-                        <td>Palestra 1</td>
-                    </tr>
-
-                    <tr>
-                    	<td class="horario">10:00</td>
-                        <td>Apresentação de trabalhos</td>
-						<td>Minicurso 2</td>
-						<td>Palestra 2</td>
-                    </tr>
-
-                    <tr>
-                    	<td class="horario">14:00</td>
-                        <td>Minicurso 3</td>
-                        <td>Cinema</td>
-                        <td>Musical</td>
-                    </tr>
-
-                    <tr>
-                    	<td class="horario">16:00</td>
-                        <td>Minicurso 4</td>
-                        <td>Atividade 01</td>
-                        <td>Atividade 02</td>
-                    </tr>
-
-                    <tr>
-                    	<td class="horario">19:00</td>
-                        <td>Palestra 3</td>
-                        <td>Encerramento</td>
-                        <td>Musical</td>
-                    </tr>
+                    <?php echo $data_tabela; ?>
 
                 </tbody>
             </table>

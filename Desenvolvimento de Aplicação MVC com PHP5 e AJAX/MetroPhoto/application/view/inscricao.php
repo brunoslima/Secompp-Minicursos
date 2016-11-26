@@ -10,6 +10,8 @@
 	<link rel="stylesheet" href="<?php echo $assets['style']?>layout/footer.css">
 	<link rel="stylesheet" href="<?php echo $assets['style']?>modules/menu.css">
 	<link rel="stylesheet" href="<?php echo $assets['style']?>modules/modules.css">
+	<script src="<?php echo $assets['script']?>jquery-3.1.0.min.js"></script>
+	<script src="<?php echo $assets['script']?>inscricao.js"></script>
 </head>
 <body>
 	<?php require_once "application/view/header.php"; ?>
@@ -17,7 +19,7 @@
 	<section>
 		<div class="conteudo">
 			<div class="conteudo-formulario">
-				<form>
+				<form class="form-inscricao">
 					<label for="nome">Nome:</label><br>
 					<input type="text" name="Nome"><br>
 
@@ -39,7 +41,7 @@
 
 					<label for="nome">Comentário:</label><br>
 					<textarea name="mensagem" rows="10" cols="50" placeholder="Informe suas expectativas."></textarea><br>
-					<button type="button" onclick="alert('Inscrição realizada! Obrigado')">Efetuar Inscrição</button>
+					<button type="button" class="button-inscricao">Efetuar Inscrição</button>
 				</form>
 			</div>
 		</div>

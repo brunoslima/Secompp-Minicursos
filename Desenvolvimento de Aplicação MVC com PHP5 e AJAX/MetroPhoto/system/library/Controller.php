@@ -10,6 +10,7 @@
 		public function __construct(){
 
 			$this->parameter = $_GET['key'];
+
 			//$this->parameter = array();
 			//print_r($this->parameter);
 
@@ -51,7 +52,6 @@
 			else {
 				require_once "system/settings/constant.php";
 				require_once 'system/view/'.$name.'.php';
-
 			}
 
 			exit(0);

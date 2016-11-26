@@ -20,13 +20,7 @@
 		<div class="conteudo">
 			<div class="conteudo-comissao">
 				<ul>
-					<li>Bruno Santos de Lima</li>
-					<li>Danilo Medeiros Eler</li>
-					<li>Leandro Ungari Cayres</li>
-					<li>Marco Antônio Piteri</li>
-					<li>Neymar dos Santos Junior</li>
-					<li>Rogério Eduardo Garcia</li>
-					<li>Jorge Marques Prates</li>
+					<?php echo $data_lista; ?>
 				</ul>
 			</div>
 		</div>

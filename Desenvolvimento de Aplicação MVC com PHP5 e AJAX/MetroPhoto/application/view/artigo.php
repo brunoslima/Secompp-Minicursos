@@ -17,8 +17,7 @@
 	<section>
 		<p>Abaixo seguem os links para <i>download</i> dos arquivos disponibilizados pela organização do evento: </p>
 		<p> 
-            <a href="documentos/apresentacao.pdf" target="blank">-> Apresentação do Minicurso</a>
-            <img src="<?php echo $assets['style']?>images/new4.gif">
+            <?php echo $data_lista; ?>
         </p>
 	</section>
 	<?php require_once "application/view/footer.php"; ?>
