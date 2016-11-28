@@ -1,5 +1,5 @@
 <ul class="menu-principal">
-	<li class="menu-item"><a href="<?php echo $project['domain']; ?>/index">Home</a></li>
+	<li class="menu-item"><a href="<?php echo $project['domain']; ?>">Home</a></li>
 	<li class="menu-item"><a href="<?php echo $project['domain']; ?>/sobre">Sobre</a></li>
 	<li class="menu-item"><a href="<?php echo $project['domain']; ?>/programacao">Programação</a></li>
 	<li class="menu-item"><a href="<?php echo $project['domain']; ?>/inscricao">Inscrições</a></li>
